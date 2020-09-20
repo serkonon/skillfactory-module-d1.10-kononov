@@ -35,7 +35,7 @@ def print_board_data():
         else:
             print(clmn['name'] + ' - ' + str(len(clmn['tasks'])) + ' задач(и):')
             for tsk in clmn['tasks']:
-                print('\t' + tsk['name'])
+                print('\t' + tsk['id'] + ' ' + tsk['name'])
 
 
 def crt_list(name):
