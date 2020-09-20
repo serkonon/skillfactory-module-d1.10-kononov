@@ -129,7 +129,7 @@ if __name__ == "__main__":
             elif len(tasks) > 1:
                 tsk = get_choice('Найдено несколько задач "{}". Выберите задачу из колонок:'.format(sys.argv[2]), tasks)
                 move(tsk, sys.argv[2], sys.argv[3])
-    elif sys.argv[1] == 'crt_list':
+    elif sys.argv[1] == 'create_column':
         if sys.argv[2]:
             read()
             if is_column(sys.argv[2]):
